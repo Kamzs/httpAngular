@@ -100,9 +100,7 @@ export class AppComponent {
   }
 
   getPostsZUzycieAsyncPipeIObslugaBledu() {
-
     this.postsToShowUsingAsyncPipe2$ =  this.httpService.containerObserver$;
-
   }
 }
 
